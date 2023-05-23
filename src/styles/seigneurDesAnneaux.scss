@@ -1,0 +1,18 @@
+.characters {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(48, 41, 51);
+
+    .characters  p {
+    text-align: center;
+    }
+  
+
+    .characters  img {
+        background-position: center;
+        margin-bottom: 20px;
+    }
+}

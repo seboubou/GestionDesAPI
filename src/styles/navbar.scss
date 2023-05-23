@@ -1,18 +1,50 @@
 .navbar {
-    background-color: #FFD90F;
+    background-color:royalblue;
     box-shadow: 0 1px 2px 2px gray;
     
     ul {
         padding-block: 24px;
         display: flex;
         align-items: center;
-        gap: 24px;
+        gap: 34px;
         margin-left: 24px;
 
         li {
             h2, a {
-                font-size: 30px;
+                font-size: 20px;
+                font-family: "Lucida Console", Monaco, monospace;
             }
         }
     }
 }
+
+  .navbar ul li a.active {
+    /* Styles pour les liens actifs */
+    color:beige;
+    
+  }
+
+  .navbar {
+    background-color: royalblue;
+    box-shadow: 0 1px 2px 2px gray;
+  }
+  
+  .navbar ul {
+    padding-block: 24px;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-left: 24px;
+  }
+  
+  .navbar ul li {
+    h2,
+    a {
+      font-size: 20px;
+      font-family: "Lucida Console", Monaco, monospace;
+    }
+  }
+  
+  
+  
+  

@@ -1,0 +1,53 @@
+
+.harry-card {
+    text-align: center;
+    margin-top: 48px;
+    min-height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.9s;
+  }
+  
+  .harry-card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  
+  
+  .harry-card p {
+    padding-block: 4px;
+    font-size: 12px;
+    color: rgb(53, 105, 225);
+  }
+  
+  .harry-card img {
+    height: 200px;
+    border-radius: 20px;
+  }
+ 
+  
+
+  .harry-card {
+    position: relative;
+  }
+  
+  .harry-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(88, 65, 219);
+    border-radius: 20px;
+    transition: opacity 0.3s;
+    opacity: 0;
+    pointer-events: none;
+   
+  }
+  
+  .harry-card:hover::after {
+    opacity: 1;
+  }

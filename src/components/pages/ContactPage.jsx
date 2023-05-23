@@ -1,8 +1,14 @@
+import ContactForm from './ContactForm';
+
+
 function ContactPage() {
     return (
-        <>
-            <h1>Rick Contact</h1>
-        </>
+        <div className="formulaire">
+            <div className="forms">
+            <ContactForm />
+            </div>
+            
+        </div>
     )
 }
 

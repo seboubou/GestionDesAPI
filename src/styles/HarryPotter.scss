@@ -1,0 +1,30 @@
+.harry-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(16, 16, 45);
+    // background-image: url("");
+    background-repeat: no-repeat; 
+    background-size: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    // background-size: 100%;
+    }
+
+    .harry-page_ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4%;
+        margin-bottom: 5%;
+    }
+
+
+    .harry-page_select {
+    margin-top: 48px;
+    padding: 12px 48px;
+    font-size: 24px;
+    border-radius: 10px;
+}
