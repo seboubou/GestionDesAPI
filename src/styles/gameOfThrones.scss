@@ -1,0 +1,34 @@
+.game-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // margin-top: 50px;
+    // background-image: url('https://images.alphacoders.com/478/478372.jpg');
+    background-color:rgb(190, 181, 181);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.game-page h2.titre-gameOfThrones {
+    font-family: cursive;
+    color: rgb(88, 86, 99);
+    font-size: 32px; /* Remplacez la taille par celle souhaitée */
+}
+.game-page_ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+    /* Styles spécifiques pour les appareils avec une largeur d'écran de 768px ou plus */
+    .game-page_ul {
+        gap: 40px;
+        margin-top: 70px;
+    }
+}

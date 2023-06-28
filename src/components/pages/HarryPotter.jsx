@@ -1,6 +1,8 @@
 
 import { useEffect, useState } from "react";
-import HarryPotterCards from "../HarryPotterCards";
+import HarryPotterCards from "./HarryPotterCards";
+import NavBarTrois from "../globals/NavBarTrois";
+// import MenuBurger from "./MenuBurger"
 
 
 
@@ -22,10 +24,15 @@ function HarryPotter() {
   }
 
   const limitedData = data.slice(0, 21);
-  
+
   return (
     <main className="harry-page">
-
+      <NavBarTrois />
+       {/* <MenuBurger /> */}
+      <div className='choipeaux'>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.DNcBoNMHB_Xz4nGaJfYPyAHaGC&pid=Api&P=0&h=180 " />
+      </div>
+      <h1 className="title-harry">Harry Potter</h1>
       <select className="harry-page_select" onChange={handleChange}>
         <option>...</option>
 

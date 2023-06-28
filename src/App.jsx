@@ -1,13 +1,15 @@
 import Router from "./components/navigation/Router"
-import NavBar from "./components/globals/NavBar"
-import Footer from "./components/globals/Footer"
+import ScrollToTop from "./components/pages/ScrollToTop";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import React from "react";
+
 
 function App() {
+ 
   return (
     <div className="app">
-      <NavBar />
       <Router />
-      <Footer />
+      <ScrollToTop />
     </div>
   )
 }

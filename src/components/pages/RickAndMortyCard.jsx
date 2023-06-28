@@ -6,6 +6,7 @@ function RickAndMortyCard({ name, image, id }) {
             <NavLink to={`/character/${id}`}>
                 <img src={image} />
                 <p>{name}</p>
+                
             </NavLink>
         </li>
     )

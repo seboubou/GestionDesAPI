@@ -14,7 +14,7 @@ function RickAndMortyDetails() {
     }, []);
 
     return (
-        <ul className="home-page_ul">
+        <ul className="rick-page_ul">
             {data !== undefined &&
                 <li className="rick-and-morty-card">
 

@@ -1,0 +1,126 @@
+.marvel-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #920606;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+.marvel-body{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 20px;
+  width: 100%;
+  margin:10px;
+}
+
+.logo-marvel-bouclier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  margin:10px;
+  
+}
+
+.bouclier-captain {
+  margin-left: auto;
+  margin-right: 20px;
+  text-align: center;
+  margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  
+}
+
+.name-marvel {
+  text-align: center;
+  margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  
+}
+
+.logo-marvel-bouclier  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.bouclier-captain img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+
+
+.name-marvel img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.marvel-page_select {
+    margin-top: 8px;
+    padding: 12px 40px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: darkblue;
+    border: solid 2px white;
+  }
+
+  .marvel-page_select option{
+        color: azure;
+  }
+  
+  .marvel-page_ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4%;
+    padding: 20px;
+  }
+
+  .title-marve h1 img {
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .marvel-page {
+      padding: 20px;
+    }
+    
+    .marvel-page_select {
+      padding: 8px 24px;
+      font-size: 18px;
+    }
+    
+    .marvel-page_ul {
+      gap: 2%;
+      margin-bottom: 10%;
+    }
+  }
