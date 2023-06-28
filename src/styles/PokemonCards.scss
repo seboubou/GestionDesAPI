@@ -1,64 +1,180 @@
+
+
 .pokemon-card {
-    text-align: center;
-    margin-top: 48px;
-    min-height: 400px;
-    width: 300px;
-    border-radius: 20px;
-   
-
-    p {
-        padding-block: 24px;
-        font-size: 28px;
-        color: rgb(38, 52, 22);
-    }
-
-    img {
-        height: 200px;
-        border-radius: 20px;
-        
-    }
-button.stats-button{
-    height: 40px;
-    width: 120px;
+  text-align: center;
+  margin-top: 28px;
+  min-height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(239, 244, 245);
+  position: relative;
+  border: 1px solid rgb(202, 205, 31);
 }
 
-    .pokemon-stats-popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 999;
-    
-        .pokemon-stats {
-          background-color: white;
-          padding: 20px;
-          border-radius: 8px;
-          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-          max-width: 400px;
-          text-align: center;
-          width: 500px;
-         
-         
-          .close-button {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 54px;
-            color: #fff;
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-          }
-
-         
-         
-          
-        }
-      }
-   
+.pokemon-card p {
+  padding-block: 24px;
+  font-size: 28px;
+  color: rgb(38, 52, 22);
 }
+
+.pokemon-card img {
+  height: 200px;
+  border-radius: 20px;
+}
+
+.pokemon-card button.stats-button {
+  height: 40px;
+  width: 120px;
+}
+
+.pokemon-card .pokemon-stats-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.pokemon-card .pokemon-stats-popup .pokemon-stats {
+  background-color: rgb(212, 188, 106);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+  width: 500px;
+}
+
+.pokemon-card .pokemon-stats-popup .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 54px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pokemon-card .favorite-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.pokemon-card .stats-button {
+  --btn-default-bg: rgb(201, 186, 49);
+  // --btn-hover-bg: rgb(51, 51, 51);
+  --btn-transition: 0.3s;
+  --btn-letter-spacing: 0.1rem;
+  --btn-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(120, 120, 91);
+  --default-btn-color: #877676c7;
+  --font-size: 16px;
+  --font-weight: 600;
+  --font-family: Menlo, Roboto Mono, monospace;
+  
+  color: var(--default-btn-color);
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  background: var(--btn-default-bg);
+  border: none;
+  cursor: pointer;
+  transition: var(--btn-transition);
+  box-shadow: var(--btn-shadow);
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+ 
+
+
+
+
+
+.pokemon-card .stats-button span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  background: inherit;
+}
+.pokemon-card .stats-button span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+
+.pokemon-card .stats-button:hover,
+.pokemon-card .stats-button:focus {
+  background: var(--btn-hover-bg);
+}
+
+.pokemon-card .stats-button:hover span,
+.pokemon-card .stats-button:focus span {
+  color: var(--hover-btn-color);
+}
+
+.pokemon-card .stats-button:hover span::before,
+.pokemon-card .stats-button:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+.back-button{
+  display: flex;
+  flex-direction: reverse;
+
+}
+@media screen and (max-width: 768px) {
+  .pokemon-card {
+    width: 100%;
+    min-height: auto;
+    margin-top: 20px;
+  }
+
+  .pokemon-card p {
+    font-size: 20px;
+    padding: 16px;
+  }
+
+  .pokemon-card img {
+    height: 150px;
+  }
+
+  .pokemon-card button.stats-button {
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .pokemon-card .pokemon-stats-popup .pokemon-stats {
+    max-width: 320px;
+    width: 90%;
+  }
+
+  .pokemon-card .close-button {
+    font-size: 36px;
+  }
+
+  .pokemon-card .favorite-button {
+    font-size: 18px;
+  }
+
+  .pokemon-card .stats-button {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+}
+

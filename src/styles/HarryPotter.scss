@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:rgb(16, 16, 45);
+    background-color:rgb(9, 9, 10);
     // background-image: url("");
     background-repeat: no-repeat; 
     background-size: auto;
@@ -12,19 +12,52 @@
     background-attachment: local;
     // background-size: 100%;
     }
+.title-harry {
+    font-family: cursive;
+    color: rgb(229, 196, 29);
+}
 
+
+
+.choipeaux img {
+  width: 80px; /* Ajustez la valeur selon vos besoins */
+  height: auto; /* Ajustez la valeur selon vos besoins */
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
     .harry-page_ul{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 4%;
-        margin-bottom: 5%;
+        gap: 1%;
+        margin-bottom: 2%;
     }
 
 
     .harry-page_select {
-    margin-top: 48px;
+    margin-top: 18px;
+    margin-bottom: 50px;
     padding: 12px 48px;
     font-size: 24px;
     border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+    .harry-page {
+      padding: 20px;
+    }
+    
+    .harry-page .title-harry {
+      font-size: 24px;
+    }
+    
+    .harry-page_ul {
+      gap: 2%;
+    }
+    
+    .harry-page_select {
+      padding: 8px 24px;
+      font-size: 18px;
+    }
+  }
+  

@@ -1,4 +1,5 @@
 import ContactForm from './ContactForm';
+import React from 'react';
 
 
 function ContactPage() {

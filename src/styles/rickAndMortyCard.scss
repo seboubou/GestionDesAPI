@@ -4,16 +4,29 @@
     min-height: 400px;
     width: 300px;
     border-radius: 20px;
-    
-
-    p {
-        padding-block: 24px;
-        font-size: 28px;
-        color: midnightblue;
+    background-color: cornsilk;
+  }
+  
+  .rick-and-morty-card p {
+    padding: 24px;
+    font-size: 28px;
+    color: midnightblue;
+  }
+  
+  .rick-and-morty-card img {
+    height: 300px;
+    border-radius: 20px;
+  }
+  @media (max-width: 600px) {
+    .rick-and-morty-card {
+      width: 100%;
     }
-
-    img {
-        height: 300px;
-        border-radius: 20px;
+  
+    .rick-and-morty-card img {
+      height: 200px;
     }
-}
+  
+    .rick-and-morty-card p {
+      font-size: 20px;
+    }
+  }

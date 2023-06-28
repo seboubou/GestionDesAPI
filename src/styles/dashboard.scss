@@ -1,0 +1,17 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b3d9ff;
+    flex-direction: row;
+  }
+  
+  .presentation img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px; /* Augmentation de la marge pour écarter les images */
+    width: 500px; /* Augmentation de la largeur des images */
+    
+  }
+  

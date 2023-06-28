@@ -1,0 +1,25 @@
+.sda-card {
+   height: 200px;
+    text-align: center;
+    margin-top: 48px;
+    min-height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color:rgb(133, 87, 42);
+   padding: 25px;
+
+    p {
+        padding-block: 24px;
+        font-size: 28px;
+        color: rgb(95, 38, 38);
+    }
+
+    img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ajuste la taille de l'image en conservant son ratio d'aspect */
+  object-position: center; /* Centre l'image à l'intérieur de la carte */
+  border-radius: 20px;
+  margin-top: 10px;    
+ }
+}

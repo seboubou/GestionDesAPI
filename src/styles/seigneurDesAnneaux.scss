@@ -1,18 +1,47 @@
-.characters {
-    height: 100vh;
+.sda-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgb(48, 41, 51);
-
-    .characters  p {
-    text-align: center;
-    }
+    flex-direction: column;
+    background-color:rgb(178, 178, 110);
+    min-height: 100vh;
+  }
   
+  .sda-page_select {
+    margin-top: 48px;
+    padding: 12px 40px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  
+  .sda-page_ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-bottom: 30%;
+    padding: 50px;
+  }
 
-    .characters  img {
-        background-position: center;
-        margin-bottom: 20px;
+  .title-sda{
+    color: rgb(95, 38, 38);
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sda-page {
+      padding: 20px;
     }
-}
+    
+    .sda-page_select {
+      padding: 8px 24px;
+      font-size: 18px;
+    }
+    
+    .sda-page_ul {
+      gap: 2%;
+      margin-bottom: 10%;
+    }
+  }
+  

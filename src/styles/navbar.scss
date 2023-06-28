@@ -1,50 +1,343 @@
-.navbar {
-    background-color:royalblue;
-    box-shadow: 0 1px 2px 2px gray;
-    
-    ul {
-        padding-block: 24px;
-        display: flex;
-        align-items: center;
-        gap: 34px;
-        margin-left: 24px;
 
-        li {
-            h2, a {
-                font-size: 20px;
-                font-family: "Lucida Console", Monaco, monospace;
-            }
-        }
-    }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: darkslateblue;
 }
 
-  .navbar ul li a.active {
-    /* Styles pour les liens actifs */
-    color:beige;
+.navbar {
+  background-color: rgb(220, 225, 240);
+  box-shadow: 0 1px 2px 2px rgb(187, 184, 184);
+  height: 7vh;
+  border: 0.5px solid darkslateblue;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  padding-block: 24px;
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  margin-left: 24px;
+}
+
+.navbar ul li {
+  h2,
+  a {
+    font-size: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+}
+
+  .navbar1{
+    background-color: darkblue;
+    box-shadow: 0 1px 2px 2px rgb(187, 184, 184);
+    height: 8vh;
+    border: 0.5px solid  darkslateblue;
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
+  
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+
+  }
+
+  .navbar1 h1 {
+    color: rgb(222, 222, 212);
     
   }
 
-  .navbar {
-    background-color: royalblue;
-    box-shadow: 0 1px 2px 2px gray;
+
+  .navbar2{
+    background-color:rgb(120, 97, 73);
+    box-shadow: 0 1px 2px 2px rgb(187, 184, 184);
+    height: 7vh;
+    border: 0.5px solid  darkslateblue;
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
   }
   
-  .navbar ul {
-    padding-block: 24px;
-    display: flex;
-    align-items: center;
-    gap: 34px;
-    margin-left: 24px;
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
   }
   
-  .navbar ul li {
-    h2,
-    a {
-      font-size: 20px;
-      font-family: "Lucida Console", Monaco, monospace;
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+  }
+
+  .navbar2 h1 {
+    color: rgb(222, 222, 212);
+    
+  }
+
+
+  .navbar3{
+    background-color: rgb(228, 188, 13);
+    
+    height: 7vh;
+    border: 2px solid  rgb(255, 170, 0);
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
+  
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+
+  }
+
+  .navbar3 h1 {
+   color: rgb(93, 29, 29);
+    
+  }
+
+  .navbar4{
+    background-color: gold;
+    
+    height: 7vh;
+    border: 2px solid  rgb(153, 255, 0);
+    border-radius: 5px;
+    width: 100%;
+
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
+  
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+  }
+
+  .navbar4 h1 {
+    color: rgb(70, 61, 61);
+    
+  }
+
+  .navbar5 {
+    background-color: rgb(226, 144, 21);
+    height: 7vh;
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
+  
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+  
+        h1 {
+          color: rgb(70, 61, 61);
+        }
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
     }
   }
+   
   
+
+  .navbar6{
+    background-color: rgb(148, 128, 98);
+    height: 7vh;
+    border-radius: 5px;
+    width: 100%;
+   
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
   
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
   
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
   
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+
+  }
+
+  .navbar6 h1 {
+    color: rgb(70, 61, 61);
+    
+    
+  }
+
+  .navbar7{
+    background-color: rgb(40, 176, 203);
+    height: 7vh;
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
+  
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+      }
+    }
+
+  }
+
+  .navbar7 h1 {
+    color: rgb(233, 225, 225);
+    
+  }
+
+  
+

@@ -1,0 +1,60 @@
+.profile-picture_menu {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(109, 104, 104);
+    margin-top: 15px;
+
+  }
+  
+  .profile-button_menu {
+    
+    margin-top: 12px;
+    position: relative;
+    
+  
+    #btn-menu {
+      font-size: 10px; // Augmentez cette valeur pour augmenter la taille du bouton
+      padding: 10px 6px; // Ajustez les valeurs pour définir la taille du bouton
+      border-radius: 5px;
+
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: -2%;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        width: 220px;
+      }
+      
+      .dropdown-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .dropdown-menu li {
+        margin-bottom: 10px; /* Espace entre les éléments */
+      }
+      
+      .dropdown-menu a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #f0f0f0;
+      }
+     
+      
+      
+      
+      
+      
+      
+      
+  }
+  

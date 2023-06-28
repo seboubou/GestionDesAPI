@@ -1,19 +1,27 @@
 
+
 import React, { useState } from 'react';
 
-const PokemonCards = ({ name, image, stats }) => {
+const PokemonCards = ({ id, name, image, stats, type, onToggleFavorite, favoritePokemons }) => {
   const [showStats, setShowStats] = useState(false);
 
   const handleToggleStats = () => {
     setShowStats(!showStats);
   };
 
+  const handleToggleFavorite = () => {
+    onToggleFavorite(id);
+  };
+
   return (
     <li className="pokemon-card">
       <img src={image} alt={name} />
       <p>{name}</p>
-      <button className="stats-button" onClick={handleToggleStats}>
+      <button className="stats-button ui-btn" onClick={handleToggleStats}>
         {showStats ? '...' : 'Show Stats'}
+      </button>
+      <button className="favorite-button" onClick={handleToggleFavorite}>
+        {favoritePokemons.includes(id) ? '❤️' : '🤍'}
       </button>
       {showStats && (
         <div className="pokemon-stats-popup">
@@ -35,4 +43,7 @@ const PokemonCards = ({ name, image, stats }) => {
 };
 
 export default PokemonCards;
+
+
+
 
