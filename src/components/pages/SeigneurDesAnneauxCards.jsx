@@ -1,18 +1,20 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
+import React, { useContext } from 'react';
+import { SeigneurDesAnneauxContext } from './SeigneurDesAnneaux';
 
-const SeigneurDesAnneauxCards = ({ name, image, id, race }) => {
-    return (
-        <div>
-               <li className="sda-card">
-            <NavLink to={`/characters/${id}`}>
-                <img src={image} />
-                <p>{name}</p>
-                <p>{race}</p>
-            </NavLink>
-        </li>
-        </div>
-    );
+const SeigneurDesAnneauxCard = ({ character, onDelete, onUpdate }) => {
+  const data = useContext(SeigneurDesAnneauxContext);
+
+  return (
+    <li className="sda-card">
+      <img src={character.image} alt={character.name} />
+      <p>{character.name}</p>
+      <p>{character.race}</p>
+      <button onClick={() => onDelete(character.id)}>Supprimer</button>
+      <button onClick={() => onUpdate(character.id)}>Modifier</button>
+    </li>
+  );
 };
 
-export default SeigneurDesAnneauxCards;
+export default SeigneurDesAnneauxCard;
+
+

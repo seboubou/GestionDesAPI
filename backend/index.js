@@ -2,6 +2,7 @@
 import express from "express";
 import sdaCharacterRoutes from "./src/routes/SdaCharacter.route.js";
 import marvelCharacterRoutes from "./src/routes/MarvelCharacter.route.js";
+// import disneyCharacterRoutes from "./src/routes/DisneyCharacter.route.js";
 import cors from "cors";
 import dotenv from "dotenv";
 
@@ -33,6 +34,8 @@ app.use("/api/sda", sdaCharacterRoutes);
 
 // Middleware pour la gestion des routes pour les personnages Marvel
 app.use("/api/marvel", marvelCharacterRoutes);
+
+// app.use("/api/disney", disneyCharacterRoutes);
 
 // Lancement de l'application en écoutant le port spécifié
 app.listen(port, () => {

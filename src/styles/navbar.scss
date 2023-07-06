@@ -339,5 +339,41 @@ h1 {
     
   }
 
+  .navbar8 {
+    background-color: rgb(40, 176, 203);
+    height: 7vh;
+    border-radius: 5px;
+    width: 100%;
+
+    .navbar5-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 70px;
+  margin-top: -50px;
+  }
   
+  .profile-button {
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  
+      .navbar-content {
+        flex-grow: 1;
+
+      }
+  
+      .bouton-menu-profil {
+        margin-left: 40px;
+       
+      }
+    }
+
+  }
 

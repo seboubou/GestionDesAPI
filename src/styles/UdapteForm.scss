@@ -1,0 +1,25 @@
+.update-character-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .update-character-form input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .update-character-form button {
+    padding: 10px 20px;
+    background-color: peru;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-character-form button:hover {
+    background-color: #45a049;
+  }
+  

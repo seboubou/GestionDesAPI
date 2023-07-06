@@ -12,6 +12,8 @@ import Dashboard from "../pages/Dashboard"
 import Forum from "../pages/Forum";
 import ForgotPassword from '../pages/ForgotPassword';
 import PageProfil from "../pages/PageProfil";
+import ModifProfil from "../pages/ModifProfil";
+import CreateCharacterSda from "../pages/CreateCharacterSda";
 
 function Router() {
     return (
@@ -24,11 +26,14 @@ function Router() {
             <Route path="/Pokemon" element={<Pokemon />} />
             <Route path="/GamesOfThrones" element={<GamesOfThrones />} />
             <Route path="/character/:id" element={<RickAndMortyDetails />} />
+            {/* <Route path="/personnages/:id" element={<SdaDetails />}  */}
             <Route path="/Marvel" element={<Marvel />} />
             <Route path="/Footer" element={<Footer />} />
             <Route exact path="/dashboard" element={<Dashboard/>} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/Profil-page" element={<PageProfil />} />
+            <Route path="/profil-modif" element={<ModifProfil />} />
+            <Route path="/creation-characterSda" element={<CreateCharacterSda />} />
             
 
 
