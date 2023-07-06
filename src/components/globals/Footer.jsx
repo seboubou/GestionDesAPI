@@ -6,25 +6,7 @@ import MenuBurger from "../pages/MenuBurger";
 // import NavBarSeven from '../globals/NavBarSeven';
 
 const Footer = () => {
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
-  // const handleScroll = () => {
-  //   const footer = document.querySelector(".footer");
-  //   const windowHeight = window.innerHeight;
-  //   const documentHeight = document.documentElement.scrollHeight;
-  //   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  //   if (scrollTop + windowHeight >= documentHeight) {
-  //     footer.style.visibility = "visible"; // Afficher le footer lorsque l'utilisateur est en bas de la page
-  //   } else {
-  //     footer.style.visibility = "hidden"; // Masquer le footer en dehors de la position basse de la page
-  //   }
-  // };
 
   return (
     <main className="container">
