@@ -1,0 +1,89 @@
+.disney-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(40, 95, 212);
+    min-height: 100vh;
+  }
+  
+  .disney-page_select {
+    margin-top: 48px;
+    padding: 12px 40px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  
+  .disney-page_ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8%;
+    
+    padding: 50px;
+  }
+
+  .title-disney{
+    color: rgb(95, 38, 38);
+    margin-top: 30px;
+  }
+
+  .add-character {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    background-color: #1a83df; /* Changer la couleur de fond */
+    padding: 16px;
+    border-radius: 8px;
+    color: #fff; /* Changer la couleur du texte */
+  }
+  
+  .add-character-title {
+    font-size: 24px;
+    color: #1b1b1b;
+    margin-bottom: 16px;
+  }
+  
+  .add-character h3 {
+    text-align: center; /* Centrer le titre horizontalement */
+  }
+  
+  .add-character form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    width: 50%;
+  }
+  
+  .add-character label {
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-bottom: 8px;
+  }
+  
+  .add-character input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    width: 500px;
+  }
+  
+  .add-character-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff930f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .add-character-button:hover {
+    background-color: #ffcc33;
+  }
+  
