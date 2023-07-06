@@ -3,14 +3,13 @@
     height: 45px;
     border-radius: 50%;
     border: 2px solid rgb(109, 104, 104);
-    margin-top: 15px;
-
+    
   }
   
   .profile-button_menu {
     
     margin-top: 12px;
-    position: relative;
+    position: absolute;
     
   
     #btn-menu {
@@ -47,14 +46,7 @@
       
       .dropdown-menu a:hover {
         background-color: #f0f0f0;
-      }
-     
-      
-      
-      
-      
-      
-      
+      }  
       
   }
   

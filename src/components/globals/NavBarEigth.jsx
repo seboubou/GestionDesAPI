@@ -5,7 +5,7 @@ import BoutonMenuProfil from "../pages/BoutonMenuProfil";
 
 function NavBarEigth() {
     return (
-        <nav className="navbar7">
+        <nav className="navbar8">
             <div className="navbar-container">
             <MenuBurger />
             <div className="navbar-content" >

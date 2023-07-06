@@ -24,6 +24,15 @@ const database2 = mysql.createPool({
   multipleStatements: true, // Autorise l'exécution de plusieurs instructions SQL dans une seule requête
 });
 
+// const database3 = mysql.createPool({
+//   host: process.env.DB3_HOST, // Adresse du serveur de la deuxième base de données
+//   port: process.env.DB3_PORT, // Port utilisé pour la connexion à la deuxième base de données
+//   user: process.env.DB3_USER, // Nom d'utilisateur pour la connexion à la deuxième base de données
+//   password: process.env.DB3_PASSWORD, // Mot de passe pour la connexion à la deuxième base de données
+//   database: process.env.DB3_NAME, // Nom de la deuxième base de données à laquelle se connecter
+//   multipleStatements: true, // Autorise l'exécution de plusieurs instructions SQL dans une seule requête
+// });
+
 // Établissement d'une connexion à la base de données pour vérifier si la connexion est réussie
 database1.getConnection((error, connection) => {
   if (error) {
@@ -44,5 +53,15 @@ database2.getConnection((error, connection) => {
   }
   console.log("Success, the second database has been reached!");
 });
+
+
+// database3.getConnection((error, connection) => {
+//   if (error) {
+//     // En cas d'erreur lors de la connexion à la base de données
+//     console.error("Impossible to reach the database", error);
+//     return;
+//   }
+//   console.log("Success, the database has been reached!");
+// });
 // Exportation de l'objet de connexion à la base de données pour le rendre accessible depuis d'autres modules
 export { database1, database2 };
