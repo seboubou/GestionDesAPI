@@ -1,22 +1,4 @@
 
-// import React, { useState } from 'react';
-
-// const GamesOfThronesCards = ({ fullName, imageUrl,title,family}) => {
-//     return (
-     
-//       <div className='game-cards'>
-//         <img src={imageUrl} alt={fullName} />
-//         <p>{fullName}</p>
-//         <p>{title} </p> 
-//         <p>{family}</p>
-        
-//       </div>
-      
-//     );
-//   };
-
-// export default GamesOfThronesCards;
-
 import React from 'react';
 
 const GamesOfThronesCards = ({ imageUrl,fullName,title,family }) => {

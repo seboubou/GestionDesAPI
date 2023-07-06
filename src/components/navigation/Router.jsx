@@ -14,6 +14,7 @@ import ForgotPassword from '../pages/ForgotPassword';
 import PageProfil from "../pages/PageProfil";
 import ModifProfil from "../pages/ModifProfil";
 import CreateCharacterSda from "../pages/CreateCharacterSda";
+import Disney from "../pages/Disney";
 
 function Router() {
     return (
@@ -34,6 +35,7 @@ function Router() {
             <Route path="/Profil-page" element={<PageProfil />} />
             <Route path="/profil-modif" element={<ModifProfil />} />
             <Route path="/creation-characterSda" element={<CreateCharacterSda />} />
+            <Route path="/disney" element={<Disney/>} />
             
 
 

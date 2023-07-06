@@ -51,7 +51,7 @@ function CreateCharacterSda() {
         <ul className="admin-page">
             {!postSucceed &&
                 <li className="admin-page_title">
-                    <h2>Créez votre personnage</h2>
+                    <h2>Créez votre personnage du Seigneur des anneaux</h2>
                 </li>
             }
             <li className="admin-page_form">

@@ -36,6 +36,11 @@ const MenuBurger = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink className="menu__item" to="/Disney">
+              Disney
+            </NavLink>
+          </li>
+          <li>
             <NavLink className="menu__item" to="/creation-characterSda">
               Créer une carte Sda
             </NavLink>
